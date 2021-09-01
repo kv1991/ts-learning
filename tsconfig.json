@@ -1,5 +1,9 @@
 {
   "compilerOptions": {
+    "strict": true,
+    "alwaysStrict": false,
+    "strictFunctionTypes": true,
+    "strictBindCallApply": true,
     "target": "es5",
     "lib": [
       "dom",
@@ -10,7 +14,6 @@
     "skipLibCheck": true,
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
-    "strict": true,
     "forceConsistentCasingInFileNames": true,
     "noFallthroughCasesInSwitch": true,
     "module": "esnext",
